@@ -1,4 +1,4 @@
-package _02_Firework_Display;
+ package _02_Firework_Display;
 
 import java.awt.Graphics;
 import java.util.Random;
