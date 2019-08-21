@@ -44,8 +44,10 @@ public class _00_1D_Array_Methods {
 	//   If the array does not contain the specified value, it should return -1.
 	public static int getIndex(int[] arr, int value) {
 		for (int i = 0; i < arr.length; i++) {
-			
+		if (arr[i] == value ) {
+			return i;
 		}
-		return 0;
+		}
+		return -1;
 	}
 }
